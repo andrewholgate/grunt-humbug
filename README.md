@@ -7,31 +7,31 @@ This plugin requires Grunt `~0.4`
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins.
 
-1. Install this grunt plugin:
+1. Install this grunt plugin
 
-```shell
-npm install grunt-humbug --save-dev
-```
+  ```shell
+  npm install grunt-humbug --save-dev
+  ```
 
 2. [Install humbug library](https://github.com/padraic/humbug#installation) (preferably with [composer](https://github.com/composer/composer))
 
-```shell
-composer install --working-dir=node_modules/grunt-humbug/
-```
+  ```shell
+  composer install --working-dir=node_modules/grunt-humbug/
+  ```
 
 3. Generate Humbug configuration file `humbug.json.dist` if one does not already exist in the project root.
 
-```shell
-node_modules/grunt-humbug/vendor/bin/humbug configure
-```
+  ```shell
+  node_modules/grunt-humbug/vendor/bin/humbug configure
+  ```
 
-**Note:** The `humbug.json.dist` should be [modified with custom configurations](https://github.com/padraic/humbug#manual-configuration). Humbug also expectes that a `phpunit.xml.dist` or `phpunit.xml` be also present in the same directory.
+  **Note:** The `humbug.json.dist` should be [modified with custom configurations](https://github.com/padraic/humbug#manual-configuration). Humbug also expectes that a `phpunit.xml.dist` or `phpunit.xml` be also present in the same directory.
 
 4. Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
-```js
-grunt.loadNpmTasks('grunt-humbug');
-```
+  ```js
+  grunt.loadNpmTasks('grunt-humbug');
+  ```
 
 ## The "humbug" task
 
