@@ -9,6 +9,7 @@ before_install:
  - sudo apt-get install -qq php5
 install:
   - curl -sS https://getcomposer.org/installer | php
+  - npm install
 before_script:
   - php --version
   - php composer.phar composer --version
