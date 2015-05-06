@@ -1,12 +1,8 @@
-language:
-  - node_js
-node_js:
-  - "0.8"
-  - "0.10"
-  - "0.12"
-before_install:
- - sudo apt-get update -qq
- - sudo apt-get install -qq php5
+language: php
+php:
+  - 5.4
+  - 5.5
+  - 5.6
 install:
   - curl -sS https://getcomposer.org/installer | php
   - npm install
@@ -15,4 +11,4 @@ before_script:
   - php composer.phar composer --version
   - php composer.phar install
   - npm install -g grunt-cli
-  - npm install
+script: npm test
