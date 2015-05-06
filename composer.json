@@ -1,0 +1,10 @@
+{
+    "name": "build",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0",
+        "humbug/humbug": "~1.0@dev",
+        "padraic/phpunit-extensions": "master as ~1.0@dev",
+        "padraic/phar-updater": "master as ~1.0@dev"
+    }
+}

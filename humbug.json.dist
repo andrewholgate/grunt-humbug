@@ -1,0 +1,10 @@
+{
+    "source": {
+        "directories": [
+            "test/php/"
+        ]
+    },
+    "logs": {
+        "text": "tmp/humbuglog.txt"
+    }
+}

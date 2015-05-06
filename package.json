@@ -1,0 +1,41 @@
+{
+  "name": "grunt-humbug",
+  "description": "Grunt plugin for running PHP Humbug mutation tests.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/andrewholgate/grunt-humbug",
+  "author": {
+    "name": "Andrew Holgate",
+    "email": "andrewholgate@yahoo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewholgate/grunt-humbug.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrewholgate/grunt-humbug/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/andrewholgate/grunt-humbug/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "php",
+    "mutation testing",
+    "humbug",
+    "phpunit"
+  ]
+}
