@@ -2,6 +2,8 @@
 
 > Grunt plugin for running PHP Humbug mutation tests.
 
+[![Build Status](https://travis-ci.org/andrewholgate/grunt-humbug.svg?branch=master)](https://travis-ci.org/andrewholgate/grunt-humbug)
+
 ## Getting Started
 This plugin requires Grunt `~0.4`
 
